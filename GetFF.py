@@ -23,7 +23,7 @@ from math import *
 def GetFF(kID, kQ2):# {{{
     ### GEp->kID=1, GMp->kID=2, GEn->kID=3, GMn->kID=4
     if kID<1 or kID>4:
-        print '*** ERROR***, kID is not any of [1->GEp, 2->GMp, 3->GEn, 4->GMn]'
+        print('*** ERROR***, kID is not any of [1->GEp, 2->GMp, 3->GEn, 4->GMn]')
         return -1000, -1000
 
     #################################################
